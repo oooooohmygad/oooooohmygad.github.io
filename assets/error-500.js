@@ -1,4 +1,4 @@
-import {u as useHead} from "./vue.f36acd1f.e54c09cc.js";
+import {u as useHead} from "./vue.js";
 import {
     _ as _export_sfc,
     j as openBlock,
@@ -7,7 +7,7 @@ import {
     t as toDisplayString,
     v as pushScopeId,
     x as popScopeId
-} from "./entry.e4388931.js";
+} from "./entry.js";
 
 const error500_vue_vue_type_style_index_0_scoped_b86faff8_lang = "";
 const _withScopeId = (n) => (pushScopeId("data-v-b86faff8"), n = n(), popScopeId(), n);

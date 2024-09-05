@@ -12573,7 +12573,7 @@ const _routes = [
         meta: {},
         alias: [],
         redirect: void 0,
-        component: () => __vitePreload(() => import("./_...slug_.2a3b792f.js"), true ? ["./_...slug_.2a3b792f.js", "./_...slug_.8e14c5b3.css"] : void 0, import.meta.url).then((m) => m.default || m)
+        component: () => __vitePreload(() => import("./slug.js"), true ? ["./slug.js", "./slug.css"] : void 0, import.meta.url).then((m) => m.default || m)
     },
     {
         name: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.name) ?? "games-minesweeper",
@@ -12581,7 +12581,7 @@ const _routes = [
         meta: __nuxt_page_meta$1 || {},
         alias: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.alias) || [],
         redirect: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.redirect) || void 0,
-        component: () => __vitePreload(() => import("./minesweeper.582ac9c0.js"), true ? ["./minesweeper.582ac9c0.js", "./minesweeper.c68309ee.css"] : void 0, import.meta.url).then((m) => m.default || m)
+        component: () => __vitePreload(() => import("./minesweeper.js"), true ? ["./minesweeper.js", "./minesweeper.css"] : void 0, import.meta.url).then((m) => m.default || m)
     },
     {
         name: "index",
@@ -12589,7 +12589,7 @@ const _routes = [
         meta: {},
         alias: [],
         redirect: void 0,
-        component: () => __vitePreload(() => import("./index.c1e4dd54.js"), true ? ["./index.c1e4dd54.js", "./index.95aaf11e.css"] : void 0, import.meta.url).then((m) => m.default || m)
+        component: () => __vitePreload(() => import("./index.js"), true ? ["./index.js", "./index.css"] : void 0, import.meta.url).then((m) => m.default || m)
     },
     {
         name: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.name) ?? "tools-hero-sequence",
@@ -12597,7 +12597,7 @@ const _routes = [
         meta: __nuxt_page_meta || {},
         alias: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.alias) || [],
         redirect: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.redirect) || void 0,
-        component: () => __vitePreload(() => import("./hero-sequence.ffadac10.js"), true ? ["./hero-sequence.ffadac10.js", "./hero-sequence.cb47d7f8.css"] : void 0, import.meta.url).then((m) => m.default || m)
+        component: () => __vitePreload(() => import("./hero-sequence.js"), true ? ["./hero-sequence.js", "./hero-sequence.css"] : void 0, import.meta.url).then((m) => m.default || m)
     }
 ];
 const routerOptions0 = {
@@ -13138,8 +13138,8 @@ const _sfc_main$1 = {
         const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
         const description = _error.message || _error.toString();
         const stack = void 0;
-        const _Error404 = /* @__PURE__ */ defineAsyncComponent(() => __vitePreload(() => import("./error-404.a6885b9f.js"), true ? ["./error-404.a6885b9f.js", "./vue.f36acd1f.e54c09cc.js", "./error-404.5faaecd8.css"] : void 0, import.meta.url).then((r) => r.default || r));
-        const _Error = /* @__PURE__ */ defineAsyncComponent(() => __vitePreload(() => import("./error-500.76a414ff.js"), true ? ["./error-500.76a414ff.js", "./vue.f36acd1f.e54c09cc.js", "./error-500.cbce366c.css"] : void 0, import.meta.url).then((r) => r.default || r));
+        const _Error404 = /* @__PURE__ */ defineAsyncComponent(() => __vitePreload(() => import("./error-404.js"), true ? ["./error-404.js", "./vue.js", "./error-404.css"] : void 0, import.meta.url).then((r) => r.default || r));
+        const _Error = /* @__PURE__ */ defineAsyncComponent(() => __vitePreload(() => import("./error-500.js"), true ? ["./error-500.js", "./vue.js", "./error-500.css"] : void 0, import.meta.url).then((r) => r.default || r));
         const ErrorTemplate = is404 ? _Error404 : _Error;
         return (_ctx, _cache) => {
             return openBlock(), createBlock(unref(ErrorTemplate), normalizeProps(guardReactiveProps({

@@ -46,7 +46,7 @@ import {
     v as pushScopeId,
     x as popScopeId,
     _ as _export_sfc
-} from "./entry.e4388931.js";
+} from "./entry.js";
 
 const ssrContextKey = Symbol("@css-render/vue3-ssr");
 
@@ -20384,7 +20384,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
             if (isGenerating.value) {
                 return;
             }
-            worker = new Worker(new URL("" + new URL("hero-gen-1ad3a577.js", import.meta.url).href, self.location), {
+            worker = new Worker(new URL("" + new URL("hero-gen.js", import.meta.url).href, self.location), {
                 type: "module"
             });
             worker.addEventListener("message", (event) => {

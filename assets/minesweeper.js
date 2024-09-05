@@ -30,7 +30,7 @@ import {
     s as createTextVNode,
     S as createBlock,
     U as toRaw
-} from "./entry.e4388931.js";
+} from "./entry.js";
 
 const _sfc_main$4 = {};
 const _hoisted_1$4 = {

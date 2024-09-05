@@ -24,8 +24,8 @@ import {
     s as createTextVNode,
     v as pushScopeId,
     x as popScopeId
-} from "./entry.e4388931.js";
-import {u as useHead} from "./vue.f36acd1f.e54c09cc.js";
+} from "./entry.js";
+import {u as useHead} from "./vue.js";
 
 const requestIdleCallback = globalThis.requestIdleCallback || ((cb) => {
     const start = Date.now();

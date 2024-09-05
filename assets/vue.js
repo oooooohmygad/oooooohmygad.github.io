@@ -8,7 +8,7 @@ import {
     C as onDeactivated,
     D as onActivated,
     E as getCurrentInstance
-} from "./entry.e4388931.js";
+} from "./entry.js";
 
 function useHead(input, options = {}) {
     const head = options.head || injectHead();

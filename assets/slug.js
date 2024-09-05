@@ -1,4 +1,4 @@
-import {_ as _export_sfc, k as createElementBlock, j as openBlock} from "./entry.e4388931.js";
+import {_ as _export_sfc, k as createElementBlock, j as openBlock} from "./entry.js";
 
 const ____slug__vue_vue_type_style_index_0_scoped_e33e61b5_lang = "";
 const _sfc_main = {};

@@ -5,7 +5,7 @@ import {
     v as pushScopeId,
     x as popScopeId,
     l as createBaseVNode
-} from "./entry.e4388931.js";
+} from "./entry.js";
 
 const index_vue_vue_type_style_index_0_scoped_242b1009_lang = "";
 const _sfc_main = {};
